@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pierre Feuille Ciseaux</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="welcome-screen">
+            <h1>Pierre Feuille Ciseaux</h1>
+            <button id="play-button">Jouer</button>
+        </div>
+        <div id="game-screen" style="display: none;">
+            <h2 id="countdown-text"></h2>
+            <div id="instructions" style="display: none;">
+                <p>1: Pierre | 2: Feuille | 3: Ciseaux</p>
+            </div>
+            <div id="result"></div>
+            <h3 id="score">Score: Joueur 0 - IA 0</h3>
+            <button id="restart-button" style="display: none;">Rejouer</button>
+        </div>
+        
+    </div>
+    <footer>
+        <p>
+          © <span id="current-year"></span> Maxime Jaconelli |
+          <a href="https://github.com/maxime-jcnl" target="_blank">GitHub</a>
+        </p>
+      </footer>
+    <script src="script.js"></script>
+</body>
+</html>

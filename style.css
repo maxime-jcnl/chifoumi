@@ -1,0 +1,110 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #82cdff; 
+    color: #333;
+}
+
+#game-container {
+    text-align: center;
+    width: 300px; 
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    background-color: white;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+    margin: 0 0 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
+
+#countdown-text {
+    font-size: 32px;
+    margin: 20px 0;
+    color: #333;
+}
+
+#instructions p {
+    font-size: 20px;
+    color: #555;
+    margin: 10px 0 20px;
+}
+
+#result {
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+}
+
+#score {
+    font-size: 16px;
+    color: #666;
+    margin-top: 30px;
+}
+
+#restart-button {
+    background-color: #28a745; 
+}footer {
+    text-align: center;
+    padding: 5px;
+    height: 30px;
+    color: #000000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  footer a {
+    color: #00acee;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+#restart-button:hover {
+    background-color: #218838;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    height: 30px;
+    color: #000000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  footer a {
+    color: #000000;
+    text-decoration: underline;
+    
+  }
+  
